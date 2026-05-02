@@ -1,0 +1,3 @@
+# WiFi credentials (array format — supports multiple networks, but we usually use index 0)
+aWIFI_SSID[0]='<your-ssid>'
+aWIFI_KEY[0]='<your-psk>'

@@ -1,0 +1,9 @@
+# Networking Options
+AUTO_SETUP_NET_ETHERNET_ENABLED=0          # Disable Ethernet (recommended for pure WiFi Zero setups)
+AUTO_SETUP_NET_WIFI_ENABLED=1
+AUTO_SETUP_HEADLESS=1
+AUTO_SETUP_SSH_SERVER_INDEX=1
+SURVEY_OPTED_IN=0
+AUTO_SETUP_AUTOMATED=1
+AUTO_SETUP_NET_HOSTNAME=UltraPeaterZero
+AUTO_SETUP_CUSTOM_SCRIPT_EXEC=assets/ultrapeaterzero_install.sh
