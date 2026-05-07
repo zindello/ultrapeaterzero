@@ -53,7 +53,7 @@ git clone --single-branch --branch $PYMC_REPO_BRANCH $PYMC_REPO_URL $PYMC_SCRIPT
 echo "=== Setup the default config to turn the blue LED on solid when pyMC starts"
 sed -i "/^  rxen_pin:.*/a\\  en_pins: [ 16 ] " "$PYMC_SCRIPT_DIR/config.yaml.example"
 sed -i "s/cs_pin: 21/cs_pin: -1/" "$PYMC_SCRIPT_DIR/config.yaml.example"
-sed -i "s/cs_pin: 21/cs_pin: 13/" "$PYMC_SCRIPT_DIR/config.yaml.example"
+sed -i "s/irq_pin: 16/irq_pin: 12/" "$PYMC_SCRIPT_DIR/config.yaml.example"
 
 echo "=== Copying in our custom radio config ==="
 echo "# Copy in our BoardConfig so that you only get the options of our two variants"
